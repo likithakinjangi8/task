@@ -1,0 +1,10 @@
+.hero-section{position: relative;}
+.hero-section figure{margin-bottom: 30; position: relative;}
+.hero-section figure::before{content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: red; opacity: 0.2;}
+.hero-section figure img{width: 100%;}
+.hero-section .hero-text{ position: absolute; left: 50%; top: 50%; text-align: center; 
+
+   
+    transform: translate(-50%, -50%);
+   
+} 
